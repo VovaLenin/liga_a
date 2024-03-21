@@ -1,0 +1,20 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip6_306">
+			<rect id="icon-calendar" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip6_306)">
+		<path id="Vector" d="M6.85 2L6.85 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+		<path id="Vector" d="M12.59 2L12.59 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+		<path id="Vector" d="M5.72 17.9C7 17.96 8.31 17.99 9.73 17.99C11.15 17.99 12.45 17.96 13.73 17.9C15.59 17.81 17.08 16.35 17.29 14.51C17.43 13.27 17.54 11.99 17.54 10.7C17.54 9.4 17.43 8.13 17.29 6.89C17.08 5.05 15.59 3.58 13.73 3.5C12.45 3.43 11.15 3.4 9.73 3.4C8.31 3.4 7 3.43 5.72 3.5C3.87 3.58 2.37 5.05 2.17 6.89C2.03 8.13 1.91 9.4 1.91 10.7C1.91 11.99 2.03 13.27 2.17 14.51C2.37 16.35 3.87 17.81 5.72 17.9Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M6.06 8.92C5.89 8.92 5.74 8.77 5.74 8.6C5.74 8.42 5.89 8.28 6.06 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M6.06 8.92C6.24 8.92 6.38 8.77 6.38 8.6C6.38 8.42 6.24 8.28 6.06 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M6.06 13.1C5.89 13.1 5.74 12.95 5.74 12.77C5.74 12.6 5.89 12.46 6.06 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M6.06 13.1C6.24 13.1 6.38 12.95 6.38 12.77C6.38 12.6 6.24 12.46 6.06 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M9.73 8.92C9.55 8.92 9.41 8.77 9.41 8.6C9.41 8.42 9.55 8.28 9.73 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M9.73 8.92C9.9 8.92 10.05 8.77 10.05 8.6C10.05 8.42 9.9 8.28 9.73 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M13.39 8.92C13.22 8.92 13.07 8.77 13.07 8.6C13.07 8.42 13.22 8.28 13.39 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+		<path id="Vector" d="M13.39 8.92C13.57 8.92 13.71 8.77 13.71 8.6C13.71 8.42 13.57 8.28 13.39 " stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"/>
+	</g>
+</svg>

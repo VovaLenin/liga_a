@@ -1,0 +1,416 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/Playfair-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/Playfair-800.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --white: #fff;
+  --orange: #d2691e;
+  --background-biege: #f0ead6;
+  --brown: #513833;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  font-weight: 400;
+  color: var(--white);
+}
+
+/* header */
+
+.header {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 40px 65px 30px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-holder {
+  display: flex;
+  width: 290px;
+}
+
+.logo {
+  height: 50px;
+  align-items: center;
+}
+
+.header-nav {
+  padding: 10px 30px;
+  width: 740px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  gap: 21px 30px;
+  line-height: 1.5;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--white);
+  white-space: nowrap;
+}
+
+.header-contacts {
+  text-align: right;
+  width: 275px;
+}
+
+.contact-number {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.contact-number p {
+  line-height: 1.5;
+}
+
+/* hero */
+
+.hero {
+  background-image: url("../images/hero_bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 125px 105px 25px;
+}
+
+.hero-info {
+  width: 890px;
+  color: var(--white);
+}
+
+.hero-info__title {
+  font-family: "Playfair", sans-serif;
+  font-size: 77px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.hero-info__desc {
+  font-size: 16px;
+  line-height: 1.5;
+  display: inline-block;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.hero-info__btn {
+  display: block;
+  width: 240px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px 0;
+  background-color: var(--orange);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* events */
+
+.events {
+  background: var(--background-biege);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 105px;
+  display: flex;
+  flex-direction: column;
+}
+
+.events__title {
+  font-family: "Playfair", sans-serif;
+  color: var(--brown);
+  margin: 0;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.events__cards {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 50px 0;
+  justify-content: space-between;
+}
+
+.card-link {
+  text-decoration: none;
+  display: block;
+  max-width: 390px;
+  width: calc(33.33% - 20px);
+}
+
+.card {
+  width: 100%;
+  height: 415px;
+  box-sizing: border-box;
+  padding: 25px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.card_01 {
+  background-image: url(../images/card_01.png);
+}
+
+.card_02 {
+  background-image: url(../images/card_02.png);
+}
+
+.card_03 {
+  background-image: url(../images/card_03.png);
+}
+
+.location {
+  width: 110px;
+  height: 32px;
+  background: var(--orange);
+  border-radius: 5px;
+  color: var(--white);
+  padding: 8.5px;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.location-icon {
+  margin-right: 8px;
+}
+
+.heading {
+  margin-bottom: 35px;
+}
+
+.duration {
+  display: flex;
+  color: var(--white);
+  font-size: 12px;
+  line-height: 1.33;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.duration-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Playfair";
+  line-height: 1.16;
+}
+
+.complexity__title {
+  font-size: 12px;
+  line-height: 1.33;
+  margin-bottom: 6px;
+}
+
+.complexity__container {
+  display: flex;
+}
+
+.complexity_item {
+  display: block;
+}
+
+.events__link {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: 16px;
+  font-weight: 700;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}
+
+/* media */
+
+@media screen and (max-width: 940px) {
+  .header {
+    padding-right: 75px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-contacts {
+    align-self: self-end;
+    font-size: 16px;
+  }
+  .contact-number {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .hero {
+    height: 580px;
+    padding: 60px 75px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-info {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-info__title {
+    font-size: 56px;
+  }
+  .hero-info__btn {
+    margin: 0 auto;
+  }
+  .events {
+    padding: 60px 45px 40px;
+  }
+  .events__title {
+    font-size: 24px;
+  }
+  .events__cards .card-link:nth-last-child(1) {
+    display: none;
+  }
+  .card-link {
+    width: 50%;
+  }
+  .card {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header {
+    padding: 5px 16px 6px 15px;
+    gap: 20px;
+    align-items: flex-end;
+  }
+  .logo {
+    width: 114px;
+  }
+  .header-contacts {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .contact-number {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .hero {
+    height: 400px;
+    padding: 40px 15px;
+  }
+  .hero-info__title {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 1.2;
+  }
+  .hero-info__desc {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .hero-info__btn {
+    padding: 15px 0;
+  }
+  .events {
+    padding: 70px 15px 40px;
+  }
+  .events__cards {
+    margin: 30px 0;
+  }
+  .events__title {
+    font-size: 20px;
+  }
+  .events__cards .card-link:nth-last-child(2) {
+    display: none;
+  }
+  .card-link {
+    width: 100%;
+  }
+  .events__link {
+    font-size: 12px;
+  }
+  .arrow-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
